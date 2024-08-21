@@ -1,0 +1,278 @@
+
+  body{
+    background-color: rgb(8, 8, 35);
+    margin-inline: 50px;
+ }
+ .header{
+    display:flex;
+    justify-content: space-between;
+    font-size: 37px;
+    font-family: "roboto",sans-serif;
+    
+ }
+ .menu{
+    display: flex;
+    color: azure;
+    
+ }
+ .a,.b,.c{
+    padding-right: 30px;
+ }
+ .cond{
+    display: flex;
+    flex-direction: column;
+
+ }
+ .cond-head{
+    display: flex;
+    color: rgb(252, 249, 246);
+    margin-top: 60px;
+    font-size:50px;
+ }
+ span{
+   color: rgb(96, 192, 230)
+ }
+ .p{
+   display: flex;
+   justify-content: space-between;
+   font-size: 26px;
+   height: 200px;
+   
+    
+ }
+ 
+ 
+.cond-p{
+   /* display: flex;
+   justify-content: space-between;*/
+   font-size: larger;
+   width: 770px;
+    height: 100px; 
+    color: aliceblue;
+    margin-top: 30px;
+}
+ .cond-img{
+    display: flex;
+   align-items: center; 
+   margin-right: 170px;
+} 
+.sm{
+   display: flex;
+  margin-top: 150px;
+  justify-content: baseline;
+}
+.github{
+    
+   background-color: azure;
+   border-radius: 70px;
+   margin-top: 68px;
+}
+
+.product{
+   display:flex ;
+   flex-direction: column;
+   
+   
+}
+h1{
+   font-size: 50px;
+   color: aqua;
+}
+.pro1{
+   display: flex;
+   align-items:center ;
+   margin-top: 50px;
+   border-radius: 20px;
+   background-color:#1E293B
+}
+.img{
+   display: flex;
+   align-items: center; 
+   background-color:#1E293B;
+   margin-left: 20px;
+
+}
+
+.title{
+   display: flex;
+   font-size: 40px;
+   
+   color: whitesmoke;
+   
+}
+.pro-detail{
+   font-size: 25px;
+   margin-top: 25px;
+}
+.pro2{
+   display: flex;
+   align-items:center ;
+   margin-top: 30px;
+   border: hidden;
+   border-radius: 20px;
+   background-color: #1E293B;
+
+}
+.pro3{
+   display: flex;
+   align-items:center ;
+   margin-top: 30px; 
+   border-radius: 20px;
+   background-color: #1E293B;
+}
+.explain{
+   color: aliceblue;
+   background-color:#1E293B;
+
+   margin-left: 50px;
+}
+.title{
+   background-color: #1E293B;
+}
+
+
+.titlebar{
+   display: flex;
+   justify-content: space-between;
+   font-size: 50px;
+   color: aliceblue;
+   margin-top: 30px;
+}
+#posts{
+   font-size: medium;
+}
+.post{
+   display: flex;
+   flex-direction: row;
+   margin-top: 20px;
+   
+
+   
+}
+.post1{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #1E293B;
+   border-radius: 15px;
+   width: 400px;
+   height: 500px;
+   text-align: center;
+   color: rgb(158, 162, 165);
+
+}
+.post2{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #1E293B;
+   border-radius: 20px;
+   width: 400px;
+   height: 500px;
+   text-align: center;
+   color: rgb(158, 162, 166);
+   margin-left: 40px;
+
+}
+.post3{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #1E293B;
+   border-radius: 20px;
+   width: 400px;
+   height: 500px;
+   text-align: center;
+   color: rgb(158, 162, 165);
+   margin-left: 40px;
+}
+.post1 > div{
+   width: 360px;
+   height: 200px;
+   background-color: #1E293B;
+   font-size: 30px;
+   
+}
+.post2 > div{
+   width: 360px;
+   height: 200px;
+   background-color: #1E293B;
+   font-size: 30px;
+}
+.post3 > div{
+   width: 360px;
+   height: 200px;
+   background-color: #1E293B;
+   font-size: 30px;
+}
+i{
+   font-size: 40px;
+   color: rgb(255, 255, 255);
+   background-color: #1E293B;
+}
+.subscribe{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 90px;
+
+
+}
+.my{
+   display: flex;
+  
+   flex-direction: column;
+   text-align: start;
+   color: beige;
+   
+}
+.head{
+   font-size: 50px;
+   color: rgb(255, 255, 255);
+   margin-bottom: 20px;
+}
+.head-expl{
+   font-size: 30px;
+   width: 650px;
+}
+   
+.button{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 30px;
+   color: white;
+   background-color: rgba(42, 41, 41, 0.734);
+   width: 300px;
+   height: 60px;
+}
+.email{
+   margin-left: 20px;
+   font-size: 20px;
+}
+button{
+color: rgb(21, 20, 20);
+background-color: aqua;
+border-radius: 20px;
+margin-right: 10px;
+font-size: 20px;
+}
+.footer{
+   display: flex;
+   justify-content: space-between;
+   border-top: 3px solid whitesmoke;
+   margin-top: 60px;background-color: #1E293B;
+
+}
+.mail{
+   color: aquamarine;
+   font-size: 30px;
+}
+.condect{
+   display: flex;
+   background-color: #1E293B;
+}
+.github{
+   margin-right: 20px;
+}
+
+
